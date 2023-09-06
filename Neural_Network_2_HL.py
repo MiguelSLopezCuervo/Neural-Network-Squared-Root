@@ -14,11 +14,11 @@ import numpy as np
 import time
 import Funciones_Neural_Network_2_HL as fun
 
-m = 4000
+m = 400
 m_test = 100
-it = 40000
+it = 150000
 dim_red = [1, 10, 10, 1] #OJO, LA PRIMERA ES EL INPUT, ES N.N. DE 3 CAPAS (2 hidden)
-learning_rate = 0.002
+learning_rate = 0.0002
 
 # Registra el tiempo de inicio
 inicio = time.time()
